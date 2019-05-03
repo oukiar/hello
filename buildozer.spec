@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy
+requirements = openssl, kivy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -73,7 +73,7 @@ osx.kivy_version = 1.9.1
 fullscreen = 1
 
 # (list) Permissions
-#android.permissions = INTERNET
+android.permissions = INTERNET
 
 # (int) Android API to use
 #android.api = 19
